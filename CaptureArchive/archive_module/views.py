@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from PIL import Image
 import requests
 from io import BytesIO
 from mongoengine import *
